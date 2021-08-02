@@ -1,0 +1,4 @@
+bin
+sdk
+cmd/pulumi-resource-frontegg/Pulumi.yaml
+cmd/pulumi-resource-frontegg/schema.json
