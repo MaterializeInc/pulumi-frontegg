@@ -141,12 +141,8 @@ github.com/aws/aws-sdk-go v1.30.27/go.mod h1:5zCpMtNQVjRREroY7sYe8lOMRSxkhG6MZve
 github.com/aws/aws-sdk-go v1.37.0/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
 github.com/aws/aws-sdk-go v1.38.35 h1:7AlAO0FC+8nFjxiGKEmq0QLpiA8/XFr6eIxgRTwkdTg=
 github.com/aws/aws-sdk-go v1.38.35/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
-github.com/benesch/terraform-provider-frontegg v0.2.2 h1:2CjXrFecVvdWhRBfQE9rpzCNVnHRL/pZlgtOn0AepTE=
-github.com/benesch/terraform-provider-frontegg v0.2.2/go.mod h1:pdGlHXP+b8Gh4fI0cshq/t4y1JnzVWEQIX79yggBzbM=
-github.com/benesch/terraform-provider-frontegg v0.2.3 h1:RZ7B4CsYBeTfh1gxdHX8KHxBkkYdO/BCMhvnYFBUKBU=
-github.com/benesch/terraform-provider-frontegg v0.2.3/go.mod h1:pdGlHXP+b8Gh4fI0cshq/t4y1JnzVWEQIX79yggBzbM=
-github.com/benesch/terraform-provider-frontegg v0.2.4 h1:eXVHGBOBdktOMIORol1wL2iFO/gjY09T+5be+IZEeto=
-github.com/benesch/terraform-provider-frontegg v0.2.4/go.mod h1:pdGlHXP+b8Gh4fI0cshq/t4y1JnzVWEQIX79yggBzbM=
+github.com/benesch/terraform-provider-frontegg v0.2.5 h1:BbUL5GUrbBDs3PePH3Cjnn8APgP0nrDPSMJ/ugU2Pz0=
+github.com/benesch/terraform-provider-frontegg v0.2.5/go.mod h1:pdGlHXP+b8Gh4fI0cshq/t4y1JnzVWEQIX79yggBzbM=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
