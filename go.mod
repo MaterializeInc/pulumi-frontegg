@@ -3,7 +3,7 @@ module github.com/benesch/pulumi-frontegg
 go 1.16
 
 require (
-	github.com/benesch/terraform-provider-frontegg v0.2.11
+	github.com/benesch/terraform-provider-frontegg v0.2.14
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/hashicorp/terraform-plugin-sdk v1.17.2 // indirect
 	github.com/json-iterator/go v1.1.10 // indirect
