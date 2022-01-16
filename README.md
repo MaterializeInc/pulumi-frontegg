@@ -9,6 +9,6 @@ I haven't figured out how to automatically generate Pulumi documentation yet.
 So, for now, you'll have to take a look at the Terraform documentation and
 follow the usual Terraform–Pulumi conversion rules:
 
-<https://registry.terraform.io/providers/benesch/frontegg/latest/docs>
+<https://registry.terraform.io/providers/frontegg/frontegg/latest/docs>
 
 [Frontegg]: https://frontegg.com

@@ -17,7 +17,7 @@ func init() {
 		panic(err)
 	}
 	for _, r := range f.Require {
-		if r.Mod.Path == "github.com/benesch/terraform-provider-frontegg" {
+		if r.Mod.Path == "github.com/frontegg/terraform-provider-frontegg" {
 			TFVersion = r.Mod.Version
 		}
 	}

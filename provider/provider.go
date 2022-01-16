@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"unicode"
 
-	tfversion "github.com/benesch/pulumi-frontegg"
-	frontegg "github.com/benesch/terraform-provider-frontegg/provider"
+	tfversion "github.com/MaterializeInc/pulumi-frontegg"
+	frontegg "github.com/frontegg/terraform-provider-frontegg/provider"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 	shimv2 "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim/sdk-v2"
 	"github.com/pulumi/pulumi/sdk/v3/go/common/tokens"
@@ -69,9 +69,9 @@ func Provider(version string) tfbridge.ProviderInfo {
 		Description:       "A Pulumi package for creating and managing Frontegg resources.",
 		Keywords:          []string{"pulumi", "frontegg"},
 		License:           "Apache-2.0",
-		Homepage:          "https://github.com/benesch/pulumi-frontegg",
+		Homepage:          "https://github.com/MaterializeInc/pulumi-frontegg",
 		Repository:        "https://github.com/pulumi/pulumi-frontegg",
-		PluginDownloadURL: fmt.Sprintf("https://github.com/benesch/pulumi-frontegg/releases/download/v%s/", version),
+		PluginDownloadURL: fmt.Sprintf("https://github.com/MaterializeInc/pulumi-frontegg/releases/download/v%s/", version),
 
 		Resources: map[string]*tfbridge.ResourceInfo{
 			"frontegg_permission":          {Tok: makeResource(mainMod, "Permission")},

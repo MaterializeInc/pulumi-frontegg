@@ -1,7 +1,5 @@
 # Maintainer instructions
 
-To release a new version:
-
 1. Make changes.
 
 2. Update changelog.

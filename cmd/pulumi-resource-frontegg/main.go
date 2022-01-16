@@ -14,7 +14,7 @@ package main
 import (
 	_ "embed"
 
-	frontegg "github.com/benesch/pulumi-frontegg/provider"
+	frontegg "github.com/MaterializeInc/pulumi-frontegg/provider"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 )
 
