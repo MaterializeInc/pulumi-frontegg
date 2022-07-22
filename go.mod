@@ -3,7 +3,7 @@ module github.com/MaterializeInc/pulumi-frontegg
 go 1.16
 
 require (
-	github.com/frontegg/terraform-provider-frontegg v0.2.21
+	github.com/frontegg/terraform-provider-frontegg v0.0.0-00010101000000-000000000000
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/hashicorp/terraform-plugin-sdk v1.17.2 // indirect
 	github.com/json-iterator/go v1.1.10 // indirect
@@ -16,3 +16,5 @@ require (
 )
 
 replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20201218231525-9cca98608a5e
+
+replace github.com/frontegg/terraform-provider-frontegg => github.com/antifuchs/terraform-provider-frontegg v0.2.21-0.20220721193352-0969f56c60d6
