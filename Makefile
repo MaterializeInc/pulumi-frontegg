@@ -16,5 +16,5 @@ python-sdk: bin/pulumi-tfgen-frontegg
 	bin/pulumi-tfgen-frontegg $(VERSION) python
 	cp README.md sdk/python/
 	cd sdk/python/ && \
-		sed -i.bak -e "s/\$${VERSION}/$(VERSION)/g" -e "s/\$${PLUGIN_VERSION}/$(VERSION)/g" setup.py && \
+		sed -i.bak -e "s/VERSION = .*/VERSION = '$(VERSION)'/g" -e "s/PLUGIN_VERSION = .*/PLUGIN_VERSION = '$(VERSION)'/g" setup.py && \
 		rm setup.py.bak

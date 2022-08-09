@@ -77,6 +77,8 @@ func Provider(version string) tfbridge.ProviderInfo {
 			"frontegg_permission":          {Tok: makeResource(mainMod, "Permission")},
 			"frontegg_permission_category": {Tok: makeResource(mainMod, "PermissionCategory")},
 			"frontegg_role":                {Tok: makeResource(mainMod, "Role")},
+			"frontegg_tenant":              {Tok: makeResource(mainMod, "Tenant")},
+			"frontegg_user":                {Tok: makeResource(mainMod, "User")},
 			"frontegg_webhook":             {Tok: makeResource(mainMod, "Webhook")},
 			"frontegg_workspace":           {Tok: makeResource(mainMod, "Workspace")},
 		},
