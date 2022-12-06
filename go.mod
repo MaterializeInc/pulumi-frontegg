@@ -2,7 +2,7 @@ module github.com/MaterializeInc/pulumi-frontegg
 
 go 1.16
 
-replace github.com/frontegg/terraform-provider-frontegg => github.com/frontegg/terraform-provider-frontegg v0.2.35
+replace github.com/frontegg/terraform-provider-frontegg => github.com/frontegg/terraform-provider-frontegg v0.2.38
 
 replace (
 	github.com/hashicorp/go-getter v1.5.0 => github.com/hashicorp/go-getter v1.4.0
