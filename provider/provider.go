@@ -74,6 +74,8 @@ func Provider(version string) tfbridge.ProviderInfo {
 		PluginDownloadURL: fmt.Sprintf("https://github.com/MaterializeInc/pulumi-frontegg/releases/download/v%s/", version),
 
 		Resources: map[string]*tfbridge.ResourceInfo{
+			"frontegg_allowed_origin":      {Tok: makeResource(mainMod, "AllowedOrigin")},
+			"frontegg_redirect_uri":        {Tok: makeResource(mainMod, "RedirectUri")},
 			"frontegg_permission":          {Tok: makeResource(mainMod, "Permission")},
 			"frontegg_permission_category": {Tok: makeResource(mainMod, "PermissionCategory")},
 			"frontegg_role":                {Tok: makeResource(mainMod, "Role")},
