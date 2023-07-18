@@ -3,7 +3,7 @@ module github.com/MaterializeInc/pulumi-frontegg
 go 1.20
 
 require (
-	github.com/frontegg/terraform-provider-frontegg v0.2.44
+	github.com/frontegg/terraform-provider-frontegg v0.2.45
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.47.0
 	github.com/pulumi/pulumi/sdk/v3 v3.68.0
 	golang.org/x/mod v0.10.0
