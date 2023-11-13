@@ -5,20 +5,25 @@ before:
   hooks:
     - make tfgen
 builds:
-  - goarch:
+  - binary: pulumi-resource-frontegg
+    dir: provider
+    env:
+      - CGO_ENABLED=0
+    goarch:
       - amd64
       - arm64
     goos:
       - darwin
       - windows
       - linux
-    env:
-      - CGO_ENABLED=0
-    dir: ./provider
-    main: ./cmd/pulumi-resource-frontegg
-    binary: pulumi-resource-frontegg
     ldflags:
       # The line below MUST align with the module in current provider/go.mod
-      - -X github.com/MaterializeInc/pulumi-frontegg/provider/pkg/version.Version={{.Tag }}
+      - -X github.com/your-org-name/pulumi-frontegg/provider/pkg/version.Version={{.Tag }}
+    main: ./cmd/pulumi-resource-frontegg/
 changelog:
   skip: true
+release:
+  disable: false
+  prerelease: auto
+snapshot:
+  name_template: '{{ .Tag }}-SNAPSHOT'

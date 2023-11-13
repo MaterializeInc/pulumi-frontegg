@@ -12,17 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package version
 
-import (
-	"os"
-
-	frontegg "github.com/MaterializeInc/pulumi-frontegg/provider"
-	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfgen"
-)
-
-func main() {
-	version := os.Args[1]
-	os.Args = append(os.Args[:1], os.Args[2:]...)
-	tfgen.Main("frontegg", version, frontegg.Provider(version))
-}
+// Version is initialized by the Go linker to contain the semver of this build.
+var Version string
