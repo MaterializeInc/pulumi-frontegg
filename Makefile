@@ -1,5 +1,8 @@
 VERSION ?= $(patsubst v%,%,$(shell git describe))
 
+
+all: bin/pulumi-resource-frontegg  bin/pulumi-tfgen-frontegg schema python-sdk
+
 bin/pulumi-resource-frontegg: cmd/pulumi-resource-frontegg/schema.json
 	go build -o bin/pulumi-resource-frontegg ./cmd/pulumi-resource-frontegg
 
