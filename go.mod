@@ -4,6 +4,12 @@ go 1.20
 
 replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20230912190043-e6d96b3b8f7e
 
+// Use fork of terraform-provider-frontegg because it adds support for frontegg prehooks
+// https://github.com/MaterializeInc/terraform-provider-frontegg/pull/1
+// remove when the above pr is merged upstream.
+
+replace github.com/frontegg/terraform-provider-frontegg => github.com/MaterializeInc/terraform-provider-frontegg v0.0.0-20240221202139-490d32ed6136
+
 require (
 	github.com/frontegg/terraform-provider-frontegg v0.2.57
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.69.0

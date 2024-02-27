@@ -83,6 +83,7 @@ func Provider(version string) tfbridge.ProviderInfo {
 			"frontegg_user":                {Tok: makeResource(mainMod, "User")},
 			"frontegg_webhook":             {Tok: makeResource(mainMod, "Webhook")},
 			"frontegg_workspace":           {Tok: makeResource(mainMod, "Workspace")},
+			"frontegg_prehook":             {Tok: makeResource(mainMod, "Prehook")},
 		},
 		DataSources: map[string]*tfbridge.DataSourceInfo{
 			"frontegg_permission": {Tok: makeDataSource(mainMod, "getPermission")},
