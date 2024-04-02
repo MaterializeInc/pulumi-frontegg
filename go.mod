@@ -8,7 +8,7 @@ replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraf
 // https://github.com/MaterializeInc/terraform-provider-frontegg/pull/1
 // remove when the above pr is merged upstream.
 
-replace github.com/frontegg/terraform-provider-frontegg => github.com/MaterializeInc/terraform-provider-frontegg v0.0.0-20240221202139-490d32ed6136
+replace github.com/frontegg/terraform-provider-frontegg => github.com/MaterializeInc/terraform-provider-frontegg v0.0.0-20240402203558-024adfb650ed
 
 require (
 	github.com/frontegg/terraform-provider-frontegg v0.2.57
